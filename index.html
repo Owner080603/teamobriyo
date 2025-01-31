@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te Amo Briyo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="pantalla1" class="pantalla">
+        <div class="contenido">
+            <h1>Te amo Briyo</h1>
+            <button onclick="mostrarSegundaPantalla()">Ingresar</button>
+        </div>
+    </div>
+
+    <div id="pantalla2" class="pantalla oculto">
+        <div class="contenido">
+            <h2>¿Quieres ser mi San Valentín?</h2>
+            <img src="flores-image.png" alt="Ramo de flores amarillas">
+            <div>
+                <button onclick="mostrarPantallaFinal()">Sí</button>
+                <button class="no-btn">No</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="pantallaFinal" class="pantalla oculto">
+        <div class="contenido">
+            <h2>Nos vemos el 14, te amo</h2>
+            <img src="tulipan-flower.png" alt="Tulipán violeta">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
